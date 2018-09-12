@@ -1,5 +1,5 @@
 def dictionary
-  dictionary = {
+  words = {
     :hello => "hi" ,
     :to => "2" ,
     :two => "2" ,
