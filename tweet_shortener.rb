@@ -11,10 +11,12 @@ def dictionary
   }
 end
 
-def word_substituter(tweet)
-  tweet.each do |word|
-    if word == keys.dictionary
-    tweet.sgub(/match/, dictionary)
+def word_substituter(string)
+  array = []
+  string.split.each do |word|
+    if dictionary.keys.indlude?(word.downcase)
+      array << word
     end
   end
+  array.join(" ")
 end
