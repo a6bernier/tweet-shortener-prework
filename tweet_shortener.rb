@@ -12,5 +12,6 @@ def dictionary
 end
 
 def word_substituter(tweet)
-
+  tweet = []
+  tweet.each do |key, value|
 end
