@@ -14,5 +14,6 @@ end
 def word_substituter(tweet)
   tweet = []
   tweet.each do |word|
-    if word == key.dictionary
+    if word == keys.dictionary
+      puts tweet.sgub! 
 end
