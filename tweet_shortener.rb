@@ -37,6 +37,5 @@ def selective_tweet_shortener(array)
       puts word_substituter(x)
     else
       puts array
-    end
   end
 end
