@@ -17,4 +17,5 @@ def word_substituter(tweet)
     if word == keys.dictionary
       puts tweet.sgub!
     end
+  end                     
 end
