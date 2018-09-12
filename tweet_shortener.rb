@@ -34,7 +34,7 @@ end
 
 def selective_tweet_shortener(array)
     if array.length > 140
-      word_substituter(tweet)
+      word_substituter(array)
     else
        array
   end
